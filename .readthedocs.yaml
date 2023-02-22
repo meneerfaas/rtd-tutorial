@@ -7,3 +7,9 @@ build:
     
 sphinx:
   fail_on_warning: true
+
+python:
+  # Install python packages before building the docs
+  install:
+    - method: pip
+      path: .
